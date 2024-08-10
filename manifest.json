@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Documentation Nudge",
+    "version": "1.0",
+    "description": "Nudge yourself to revisit documentation when you feel overwhelmed.",
+    "permissions": ["storage", "activeTab"],
+    "background": {
+      "service_worker": "dist/background.bundle.js",
+      "type": "module"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
